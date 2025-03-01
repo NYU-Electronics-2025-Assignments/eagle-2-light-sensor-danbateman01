@@ -287,6 +287,30 @@
 </package>
 </packages>
 </library>
+<library name="VCNT2020">
+<packages>
+<package name="XDCR_VCNT2020">
+<circle x="-1.91351875" y="0.7697625" radius="0.1" width="0.2" layer="21"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="1" x2="-1.25" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="1" x2="-1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.45" x2="-1.5" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="1.5" y1="1.45" x2="-1.5" y2="1.45" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="1.45" x2="-1.5" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="1.5" y1="1.45" x2="1.5" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="-1.37" y1="1" x2="-1.37" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.37" y1="1" x2="1.37" y2="-1" width="0.127" layer="21"/>
+<circle x="-1.91351875" y="0.7697625" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.54" y="2.032" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="3" x="0.63" y="0.725" dx="0.85" dy="0.95" layer="1"/>
+<smd name="4" x="0.63" y="-0.625" dx="0.85" dy="1.15" layer="1"/>
+<smd name="2" x="-0.57" y="-0.625" dx="0.97" dy="1.15" layer="1"/>
+<smd name="1" x="-0.57" y="0.725" dx="0.97" dy="0.95" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -488,6 +512,17 @@ V1.0 2018-04-18
 </autorouter>
 <elements>
 <element name="U$1" library="voltera_community_lib" package="2X3_BOARD_V2" value="2X3_BOARD_V2" x="0" y="0" smashed="yes"/>
+<element name="U1" library="VCNT2020" package="XDCR_VCNT2020" value="VCNT2020" x="-7.62" y="-10.16" smashed="yes">
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/VCNT2020/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda" x="-7.62" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      Reflective Optical Sensor 0.02 (0.5mm) 4-SMD Module                                              " x="-7.62" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="VCNT2020TR-ND" x="-7.62" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Vishay" x="-7.62" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="VCNT2020" x="-7.62" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.16" y="-8.128" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="None" x="-7.62" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/VCNT2020/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap" x="-7.62" y="-10.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-10.16" y="-13.462" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 </signals>
